@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.pureilab.data</groupId>
-    <artifactId>pureilab-data</artifactId>
+    <groupId>com.givit.data</groupId>
+    <artifactId>givit</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>spring-boot-mysql-springdatajpa-hibernate</name>
@@ -61,7 +61,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.pureilab.Application</start-class>
+        <start-class>com.givit.Application</start-class>
         <java.version>1.8</java.version>
     </properties>
 

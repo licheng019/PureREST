@@ -1,4 +1,4 @@
-package com.pureilab.model.master;
+package com.givit.model.master;
 
 /**
  * Created by Julian on 10/31/2016.

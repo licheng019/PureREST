@@ -1,4 +1,4 @@
-package com.pureilab.controller.master;
+package com.givit.controller.master;
 /**
  * @(#)AlgorithmException.java
  *

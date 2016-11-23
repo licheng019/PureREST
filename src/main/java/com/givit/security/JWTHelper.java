@@ -1,4 +1,4 @@
-package com.pureilab.security;
+package com.givit.security;
 
 import io.jsonwebtoken.*;
 

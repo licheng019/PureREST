@@ -1,7 +1,7 @@
-package com.pureilab.controller.master;
+package com.givit.controller.master;
 
-import com.pureilab.model.master.*;
-import com.pureilab.security.JWTHelper;
+import com.givit.model.master.*;
+import com.givit.security.JWTHelper;
 
 import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import org.springframework.beans.factory.annotation.Autowired;

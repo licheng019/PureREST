@@ -1,4 +1,4 @@
-package com.pureilab.model.second;
+package com.givit.model.second;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 

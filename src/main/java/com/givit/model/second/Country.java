@@ -1,4 +1,4 @@
-package com.pureilab.model.second;
+package com.givit.model.second;
 
 import javax.persistence.*;
 import javax.sql.DataSource;

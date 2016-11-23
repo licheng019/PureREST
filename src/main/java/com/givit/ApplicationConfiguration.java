@@ -1,4 +1,4 @@
-package com.pureilab;
+package com.givit;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.filter.CorsFilter;

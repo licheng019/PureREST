@@ -1,9 +1,9 @@
-package com.pureilab.controller.master;
+package com.givit.controller.master;
 
-import com.pureilab.model.master.*;
-import com.pureilab.model.second.Country;
-import com.pureilab.model.second.CountryDao;
-import com.pureilab.security.JWTHelper;
+import com.givit.model.master.*;
+import com.givit.model.second.Country;
+import com.givit.model.second.CountryDao;
+import com.givit.security.JWTHelper;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

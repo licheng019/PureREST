@@ -1,9 +1,8 @@
-package com.pureilab.controller.master;
-
-import com.pureilab.model.master.APIRequest;
+package com.givit.controller.master;
 
 import org.springframework.stereotype.Component;
 
+import com.givit.model.master.APIRequest;
 import com.google.gson.Gson;
 /**
  * Created by Julian on 11/14/2016.

@@ -1,7 +1,7 @@
-package com.pureilab.controller.master;
+package com.givit.controller.master;
 
-import com.pureilab.model.master.*;
-import com.pureilab.model.second.Country;
+import com.givit.model.master.*;
+import com.givit.model.second.Country;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -23,6 +23,7 @@ import com.google.gson.Gson;
  * Created by Julian on 11/14/2016.
  */
 @RestController
+@RequestMapping("/givit")
 public class APIController {
 
     @Autowired
