@@ -6,17 +6,6 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.context.annotation.Bean;
 
-import org.springframework.context.annotation.Primary;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceBuilder;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-
-import javax.sql.DataSource;
-
-/**
- * Created by Julian on 11/2/2016.
- */
 @Configuration
 public class ApplicationConfiguration {
 
@@ -34,8 +23,6 @@ public class ApplicationConfiguration {
         config.addAllowedMethod("POST");
         source.registerCorsConfiguration("/**", config);
         return new CorsFilter(source);
-
-
     }
 
 }

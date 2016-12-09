@@ -4,9 +4,7 @@ import org.springframework.stereotype.Component;
 
 import com.givit.model.master.APIRequest;
 import com.google.gson.Gson;
-/**
- * Created by Julian on 11/14/2016.
- */
+
 @Component
 public class ControllerHelper {
 

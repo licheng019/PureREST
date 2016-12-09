@@ -1,21 +1,22 @@
 package com.givit.model.master;
 
-import com.google.gson.Gson;
+import java.io.StringReader;
+import java.util.List;
 
-/**
- * Created by Julian on 10/31/2016.
- *
- *
- */
+import com.google.gson.Gson;
+import com.google.gson.internal.LinkedTreeMap;
+import com.google.gson.stream.JsonReader;
+
 public class APIRequest {
 
+	private static final long serialVersionUID = 1L;
     private String apiKey = "";
 
     private String token = "";
 
     private String operator = "";
 
-    private String[] params  = null;
+    private List params  = null;
 
     public String getApiKey() {
         return apiKey;
@@ -41,19 +42,22 @@ public class APIRequest {
         this.operator = operator;
     }
 
-    public String[] getParams() {
-        return params;
-    }
 
-    public void setParams(String[] params) {
-        this.params = params;
-    }
 
-    public static APIRequest parse(String json) {
+    public List<LinkedTreeMap<String, String>> getParams() {
+		return params;
+	}
+
+	public void setParams(List params) {
+		this.params = params;
+	}
+
+	public static APIRequest parse(String json) {
 
         Gson gson = new Gson();
-        APIRequest request = gson.fromJson(json, APIRequest.class);
-
+        JsonReader reader = new JsonReader(new StringReader(json));
+        APIRequest request = gson.fromJson(reader, APIRequest.class);
+        //String params[] = request.getParams();
         return request;
 
     }

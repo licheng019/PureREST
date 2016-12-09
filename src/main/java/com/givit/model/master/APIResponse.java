@@ -4,7 +4,7 @@ package com.givit.model.master;
  * Created by Julian on 10/31/2016.
  */
 public class APIResponse {
-
+	private static final long serialVersionUID = 1L;
     final public static String CODE_SUCCESS = "200";
     final public static String CODE_FAILED = "500";
 
